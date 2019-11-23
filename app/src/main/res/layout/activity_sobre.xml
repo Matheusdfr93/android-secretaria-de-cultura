@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context=".Sobre"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/objetivo"
+        android:layout_width="349dp"
+        android:layout_height="186dp"
+        android:text="Aplicativo  destinado a exibir os pontos Turísticos da cidade de Campanha, no Sul de Minas Gerais. É uma tentativa de estimular o turismo e o comércio local por meio da propagação de informações."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/dados"
+        android:layout_width="389dp"
+        android:layout_height="217dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Desenvolverdor: Matheus de Freitas Rodrigues \n email: matheusdfr93@gmail.com \n Este aplicativo foi desenvolvido como TCC do curso de Engenharia de Telecomunicações na Universidade Federal de São João Del-Rei sob a orientação do professor Rone Ilídio da Silva."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/objetivo" />
+</android.support.constraint.ConstraintLayout>

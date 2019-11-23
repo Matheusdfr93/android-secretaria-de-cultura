@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3b7c35</color>
+    <color name="colorPrimaryDark">#364c3d</color>
+    <color name="colorAccent">#228b22</color>
+    <color name="fundo">#F6F4DD</color>
+    <color name= "verdesec">#364c3d</color>
+</resources>
